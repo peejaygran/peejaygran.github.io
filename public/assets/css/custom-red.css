@@ -1,0 +1,62 @@
+/* Header */
+.pj-brand>span {
+	color: #B30027;
+}
+
+/* 1st Section */
+.pj-photo {
+	background: url('../img/photo-red.png');
+}
+.pj-header ul>li.active>a {
+	background: #B30027;
+	color:#fff;
+}
+.pj-btn-white:hover {
+	background: #F31B4A;
+	color: #fff;
+}
+
+/* 2nd Section */
+.pj-social-links>a>li>span {
+    background: #B30027;
+}
+.pj-social-links>a>li>span:hover {
+	background:#F11C4A;
+	color : #222;
+}
+
+/* 3rd Section */
+.pj-3rd-section {
+	background: url('../img/skill-bg-red.png');
+}
+
+/* 4th Section */
+.pj-portfolio-detail {
+    background: rgba(179,0,39,.8);
+}
+#pj-skills-carousel>ol.carousel-indicators li {
+    background-color: #B30027;
+    border: 1px solid #B30027;
+}
+#pj-skills-carousel>ol.carousel-indicators .active{
+    background-color: #F11C4A;
+}
+
+/* 5th Section */
+.pj-contact-divider {
+	border: 3px solid #B40027;
+}
+.pj-primary-btn {
+	background: #B30027;
+    color: #fff;
+}
+.pj-primary-btn:hover {
+	background:#F31B4A;
+	color: #fff;
+	border-color: #F31B4A;
+}
+
+/* Footer */
+.pj-bottom-footer {
+	background: #B30027;
+}

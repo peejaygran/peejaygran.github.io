@@ -1,0 +1,75 @@
+@media screen and (max-width: 768px) {
+	#pj-nav-menu-container {
+		width: 100%;
+	}
+	/* .pj-nav-menu>a>li {
+		width: 100%;
+		font-size: 12px;
+		padding: 10px!important;
+	} */
+	.pj-2nd-section {
+		padding: 100px 15px;
+	}
+	.pj-social-links>a>li {
+		margin: 10px;
+	}
+	.portfolio-item {
+		/* width:75%; */
+		margin-bottom: 25px;
+		margin: auto;
+	}
+	/* .contact-form .row>div {
+		width: 100%;
+	} */
+}
+
+/*--------------------------------------------------------------
+# Large Devices, Wide Screens
+--------------------------------------------------------------*/
+@media only screen and (max-width : 1199px) {
+	section > .container { width: 100%; }
+}
+
+/*--------------------------------------------------------------
+# Medium Devices, Desktops
+--------------------------------------------------------------*/
+@media only screen and (max-width : 991px) {
+	.pj-brand { padding: 20px 0; }
+}
+
+/*--------------------------------------------------------------
+# Small Devices, Tablets
+--------------------------------------------------------------*/
+@media only screen and (max-width : 767px) {
+	/* Navigation */
+	ul.pj-nav-menu  { display: table; width: 100%; text-align: center; margin: 7.5px 0; }
+	ul.pj-nav-menu>a { display: table-cell; padding: 10px 0; }
+	ul.pj-nav-menu>a.active { background: #B30027; }
+	ul.pj-nav-menu>a>li { padding: 0; }
+	
+	/* About */
+	.pj-social-links>a>li { margin: 8px; }
+	
+	/* Portfolio */
+	.portfolio-item>img { width: auto; margin-left: auto; margin-right: auto; }
+}
+
+/*--------------------------------------------------------------
+# Extra Small Devices, Phones
+--------------------------------------------------------------*/
+@media only screen and (max-width : 479px) {
+	/* Navigation */
+	ul.pj-nav-menu { display: block; }
+	ul.pj-nav-menu>a { display: block; }
+
+	/* My Skills */
+	.logo-container { height: 100px; }
+	.pj-3rd-section .row [class*="col-"] { width: 100%; }
+}
+
+/*--------------------------------------------------------------
+# Custom, iPhone Retina
+--------------------------------------------------------------*/
+@media only screen and (max-width : 320px) {
+	
+}
